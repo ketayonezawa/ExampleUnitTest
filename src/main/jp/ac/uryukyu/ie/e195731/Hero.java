@@ -36,9 +36,7 @@ public class Hero {
         return  dead;
     }
 
-    public String getName(){
-        return name;
-    }
+    public String getName(){ return name; }
 
     /**
      * Enemyへ攻撃するメソッド。
