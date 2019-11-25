@@ -32,9 +32,7 @@ public class Hero {
      * getterメソッドと同等。生死をboolean表現しているためメソッド名をisDead()とした。
      * @return boolean
      */
-    public boolean isDead(){
-        return  dead;
-    }
+    public boolean isDead(){ return  dead; }
 
     public String getName(){ return name; }
 
